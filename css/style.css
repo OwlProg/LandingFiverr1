@@ -128,7 +128,7 @@ body {
   }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 380px) {
   .block {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
