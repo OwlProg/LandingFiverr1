@@ -87,7 +87,7 @@ body {
           flex-direction: column;
 }
 
-@media (max-width: 862px) {
+@media (max-width: 1010px) {
   .block {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -110,6 +110,31 @@ body {
     height: 80%;
     width: 75%;
   }
+}
+
+@media (max-width: 600px) {
+  .block {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .block img {
+    margin: auto;
+    height: 70%;
+    width: 65%;
+  }
+  .block_reversed {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  .block_reversed img {
+    margin: auto;
+    height: 70%;
+    width: 65%;
+  }
   h1 {
     text-transform: uppercase;
     text-align: center;
@@ -120,7 +145,7 @@ body {
     font-size: 14px;
   }
   .button {
-    font-size: 18px;
+    font-size: 10px;
   }
 }
 /*# sourceMappingURL=style.css.map */
